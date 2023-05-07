@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <title>Album Più Venduti Di Sempre</title>
+</head>
+<body>
+    <img src="../static/images/thriller.jpg" alt="Archers" width="400">
+    {% for item in album %}
+        <p>
+            Album: {{ item[0] }}
+        </p>
+        <img src="../static/images/{{item[0]}}.png" alt="{{item[0]}}" width="200">
+    {% endfor %}
+
+</body>
+
+</html>
