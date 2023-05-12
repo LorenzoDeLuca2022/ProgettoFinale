@@ -13,9 +13,12 @@ mycursor = mydb.cursor()
 #Create the DB (if not already exists)
 mycursor.execute("CREATE DATABASE IF NOT EXISTS ALBUM")
 
+mycursor.execute("DROP TABLE  IF  EXISTS ALBUM.Album_Venduti")
+
 #Create the table for the csv data (if not exists)
 mycursor.execute("""
   CREATE TABLE IF NOT EXISTS ALBUM.Album_Venduti (
+    ID INTEGER,
     Artista VARCHAR(50) NOT NULL,
     Album VARCHAR(50) NOT NULL,
     Anno CHAR(4) NOT NULL,
@@ -38,7 +41,7 @@ print(album.head(20))
 for i,row in album.iterrows():
     cursor = mydb.cursor()
     #here %S means string values 
-    sql = "INSERT INTO ALBUM.Album_Venduti VALUES (%s,%s,%s,%s,%s,%s)"
+    sql = "INSERT INTO ALBUM.Album_Venduti VALUES (%s,%s,%s,%s,%s,%s,%s)"
     cursor.execute(sql, tuple(row))
     print("Record inserted")
     # the connection is not auto committed by default, so we must commit to save our changes

@@ -1,21 +1,21 @@
-﻿Artista;Album;Anno;Genere;Vendite;Miglior_Canzone
-Michael Jackson;Thriller;1982;Pop;70;Thriller
-AC/DC;Back in Black;1980;Rock;50;Back In Black
-Whitney Houston / various artists;The Bodyguard;1992;Pop;45;I Will Always Love You
-Pink Floyd;The Dark Side of the Moon;1973;Rock;45;Money
-Eagles;Their Greatest Hits (1971–1975);1976;Rock;44;Take It Easy
-Meat Loaf;Bat Out of Hell;1977;Rock;43;Bat Out Of Hell
-Eagles;Hotel California;1976;Rock;42;Hotel California
-Shania Twain;Come On Over;1997;Pop;40;Man! I Feel Like A Woman
-Fleetwood Mac;Rumours;1977;Rock;40;Songbird
-Bee Gees;Saturday Night Fever;1977;Disco;40;Stayin' Alive
-Led Zeppelin;Led Zeppelin IV;1971;Rock;37;Black Dog
-Michael Jackson;Bad;1987;Pop;35;Bad
-Alanis Morissette;Jagged Little Pill;1995;Rock;33;All I Really Want
-Various artists;Dirty Dancing;1987;Soundtrack;32;The Time Of My Life
-Celine Dion;Falling into You;1996;Pop;32;Falling Into You
-Adele;21;2011;Pop;31;Rolling In The Deep
-The Beatles;1;2000;Rock;31;Let It Be
-Metallica;Metallica (Black Album);1991;Metal;31;Enter Sandman
-Celine Dion;Let's Talk About Love;1997;Pop;31;The Reason
-Guns N' Roses;Appetite for Destruction;1987;Rock;30;Sweet Child O' Mine
+﻿ID;Artista;Album;Anno;Genere;Vendite;Miglior_Canzone
+0;Michael Jackson;Thriller;1982;Pop;70;Thriller
+1;AC/DC;Back in Black;1980;Rock;50;Back In Black
+2;Whitney Houston / various artists;The Bodyguard;1992;Pop;45;I Will Always Love You
+3;Pink Floyd;The Dark Side of the Moon;1973;Rock;45;Money
+4;Eagles;Their Greatest Hits (1971–1975);1976;Rock;44;Take It Easy
+5;Meat Loaf;Bat Out of Hell;1977;Rock;43;Bat Out Of Hell
+6;Eagles;Hotel California;1976;Rock;42;Hotel California
+7;Shania Twain;Come On Over;1997;Pop;40;Man! I Feel Like A Woman
+8;Fleetwood Mac;Rumours;1977;Rock;40;Songbird
+9;Bee Gees;Saturday Night Fever;1977;Disco;40;Stayin' Alive
+10;Led Zeppelin;Led Zeppelin IV;1971;Rock;37;Black Dog
+11;Michael Jackson;Bad;1987;Pop;35;Bad
+12;Alanis Morissette;Jagged Little Pill;1995;Rock;33;All I Really Want
+13;Various artists;Dirty Dancing;1987;Soundtrack;32;The Time Of My Life
+14;Celine Dion;Falling into You;1996;Pop;32;Falling Into You
+15;Adele;21;2011;Pop;31;Rolling In The Deep
+16;The Beatles;1;2000;Rock;31;Let It Be
+17;Metallica;Metallica (Black Album);1991;Metal;31;Enter Sandman
+18;Celine Dion;Let's Talk About Love;1997;Pop;31;The Reason
+19;Guns N' Roses;Appetite for Destruction;1987;Rock;30;Sweet Child O' Mine

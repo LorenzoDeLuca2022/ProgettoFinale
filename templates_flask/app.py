@@ -15,8 +15,8 @@ mydb = mysql.connector.connect(
 
 mycursor = mydb.cursor()
 
-@app.route('/album')
+@app.route('/')
 def unitList():
-    mycursor.execute("SELECT * FROM Album_Venduti")
+    mycursor.execute("SELECT * FROM Album_Venduti order by ID")
     myresult = mycursor.fetchall()
     return render_template('project.html', album=myresult)

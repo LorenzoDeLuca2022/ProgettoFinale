@@ -4,12 +4,18 @@
     <title>Album Più Venduti Di Sempre</title>
 </head>
 <body>
-    <img src="../static/images/thriller.jpg" alt="Archers" width="400">
+    
     {% for item in album %}
         <p>
-            Album: {{ item[0] }}
+            Artista: {{ item[1] }}
+            Album: {{ item[2] }}
+            Anno: {{ item[3] }}
+            Genere: {{ item[4] }}
+            Vendite: {{ item[5] }}
+            Miglior Canzone: {{ item[6] }}
         </p>
-        <img src="../static/images/{{item[0]}}.png" alt="{{item[0]}}" width="200">
+        <img src="../static/images/{{item[0]}}.jpg" alt="{{item[0]}}" width="200">
+        <img src="../static/images/{{item[1]}}.jpg" alt="{{item[1]}}" width="200">
     {% endfor %}
 
 </body>
