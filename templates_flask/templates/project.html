@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html lang="it">
+<link rel="stylesheet" href="bello.css">
 <head>
     <title>Album Più Venduti Di Sempre</title>
 </head>
 <body>
+    
+    <h1 class="colore"> DISCHI PIU VENDUTI DI SEMPRE</h1>
     
     {% for item in album %}
         <p>
@@ -15,7 +18,7 @@
             Miglior Canzone: {{ item[6] }}
         </p>
         <img src="../static/images/{{item[0]}}.jpg" alt="{{item[0]}}" width="200">
-        <img src="../static/images/{{item[1]}}.jpg" alt="{{item[1]}}" width="200">
+        
     {% endfor %}
 
 </body>
