@@ -1,0 +1,17 @@
+.titolo {
+    color: red;    
+    display: flex;
+    justify-content: center;
+    font-size: 75px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+body {
+        background-image:url(grammy.png);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;    
+            font-family: "Lucida Console", "Courier New", monospace;
+        }
+    
