@@ -1,5 +1,5 @@
 .titolo {
-    color: red;    
+    color: black;    
     display: flex;
     justify-content: center;
     font-size: 75px;
@@ -8,10 +8,5 @@
 }
 
 body {
-        background-image:url(grammy.png);
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            background-size: cover;    
-            font-family: "Lucida Console", "Courier New", monospace;
+        background-color: grey;
         }
-    
