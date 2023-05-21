@@ -12,7 +12,7 @@
 
     <h1 class="titolo"> DISCHI PIU VENDUTI DI SEMPRE</h1>
 
-    
+<div class="dischi">
     
     {% for item in album %}
         <p>
@@ -22,10 +22,13 @@
             Genere: {{ item[4] }}
             Vendite: {{ item[5] }}
             Miglior Canzone: {{ item[6] }}
-        </p>
-        <img src="../static/images/{{item[0]}}.jpg" alt="{{item[0]}}" width="200">
-        
+        </p>   
+    
+        <img class="immagine" src="../static/images/{{item[0]}}.jpg" alt="{{item[0]}}" width="300">       
+   
     {% endfor %}
+
+</div>
 
 </body>
 

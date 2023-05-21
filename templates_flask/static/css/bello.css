@@ -8,5 +8,25 @@
 }
 
 body {
-        background-color: grey;
+        background-color: cornsilk;
         }
+
+
+.dischi {
+    color: black ;
+    font-size: 25px;
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    
+}
+
+.immagine {
+    width: 350px;
+    height: 250px;    
+    align-self: center;
+      
+}
+
+
+
