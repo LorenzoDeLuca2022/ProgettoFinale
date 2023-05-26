@@ -1,32 +1,45 @@
 .titolo {
-    color: black;    
+    color: white;    
     display: flex;
     justify-content: center;
     font-size: 75px;
     font-family: 'Times New Roman', Times, serif;
-
+    margin-left: 30px;
 }
 
 body {
-        background-color: cornsilk;
+        background-color: black;
         }
 
 
 .dischi {
-    color: black ;
+    color:white ;
     font-size: 25px;
     width: 400px;
     height: 300px;
     text-align: center;
-    
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .immagine {
     width: 350px;
-    height: 250px;    
+    height: 300px;    
     align-self: center;
       
 }
 
 
+.immagine2 {
+    width: 200px;
+    height: 200px;
+}
 
+.allineamento {
+    display:flex;
+    justify-content: flex-start;
+    vertical-align: middle;
+    margin-top: 200px;
+}
